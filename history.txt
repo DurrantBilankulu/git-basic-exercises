@@ -1,0 +1,81 @@
+    1  cd
+    2  cd
+    3  cd c/Users/u1126/Umuzi
+    4  cd /Users/u1126/Umuzi
+    5  cd home
+    6  git branch
+    7  git log
+    8  git branch -d bootcamp-writing-assignment
+    9  git branch -d bootcamp-writing-assignment
+   10  cd c/Users/u1126
+   11  cd /c/Users/u1126
+   12  git branch -d bootcamp-writing-assignment
+   13  git push origin --delete bootcamp-writing-assignment
+   14  rm -rf .git
+   15  cd
+   16  cd ~
+   17  cd
+   18  cd /c/Users/u1126
+   19  git branch
+   20  mkdir git-basic-exercises
+   21  cd git-basic-exercises
+   22  cd
+   23  cd /
+   24  cd ~
+   25  rmdir git-basic-exercises
+   26  pwd
+   27  cd git-basic-exercises
+   28  cd /c/Users/u1126
+   29  pwd
+   30  cd git-basic-exercises
+   31  pwd
+   32  cd
+   33  git log
+   34  cd git-basic-exercises
+   35  cd /c/Users/u1126/git-basic-exercises
+   36  git log
+   37  ls -a
+   38  git init
+   39  ls -a
+   40  git status
+   41  touch README.md
+   42  git status
+   43  git add
+   44  git add README.md
+   45  git commit -m "initial commit"
+   46  git config --global user.email durrantbilankulu@gmail.com
+   47  git log
+   48  git config --global user.name Durrant Bilankulu
+   49  git log
+   50  git status
+   51  git commit -m "initial commit"
+   52  git status
+   53  git log
+   54  nano README.md
+   55  git status
+   56  git add README.md
+   57  git commit -m "second commit"
+   58  git log
+   59  nano README.md
+   60  git add README.md
+   61  git commit -m "third commit"
+   62  git log
+   63  git checkout main
+   64  git checkout 73e84ca4615d0e09fbcbc660c71bcc5cf6ba1f82
+   65  cat README.md
+   66  git checkout main
+   67  git checkout master
+   68  cat README.md
+   69  git checkout d9a19f073d8ed6df2d61a678d88d2af80baf4897
+   70  cat README.md
+   71  git checkout master
+   72  git branch
+   73  git branch milkshake-flavours
+   74  git checkout milkshake-flavours
+   75  nano milkshakes.md
+   76  git add milkshakes.md
+   77  git commit -m "added initial flavours"
+   78  git checkout master
+   79  git branch history
+   80  git checkout history
+   81  history>history.txt
